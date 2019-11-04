@@ -17,16 +17,16 @@ then run 'sh train.sh' to fine tune model on cityscapes dataset.
 trainImages.txt, trainLabels.txt, valImages.txt, valLabels.txt like these:
 
 leftImg8bit/train/aachen/aachen_000000_000019_leftImg8bit.png
-leftImg8bit/train/aachen/aachen_000001_000019_leftImg8bit.png
+
 
 gtFine/train/aachen/aachen_000000_000019_gtFine_labelTrainIds.png
-gtFine/train/aachen/aachen_000001_000019_gtFine_labelTrainIds.png
+
 
 leftImg8bit/val/frankfurt/frankfurt_000000_000294_leftImg8bit.png
-leftImg8bit/val/frankfurt/frankfurt_000000_000576_leftImg8bit.png
+
 
 gtFine/val/frankfurt/frankfurt_000000_000294_gtFine_labelTrainIds.png
-gtFine/val/frankfurt/frankfurt_000000_000576_gtFine_labelTrainIds.png
+
 
 And you will run 'sh infer.sh' to inference the model, get visible results
 
