@@ -1,0 +1,2 @@
+#!/bin/bash
+CUDA_VISIBLE_DEVICES=1 python train.py --model=erf --ckpt_path=/data1/llg/Documents/erf_net/log --summary_path=/data1/llg/Documents/erf_net/summary --images_path=/data1/llg/Documents/cityscapes/trainImages.txt --labels_path=/data1/llg/Documents/cityscapes/trainLabels.txt --val_images_path=/data1/llg/Documents/cityscapes/valImages.txt --val_labels_path=/data1/llg/Documents/cityscapes/valLabels.txt
